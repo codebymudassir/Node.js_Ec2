@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.send("Hello, server is running! and kdkdkdkkdkdkdk");
+  res.send("Hello, server is running! and ");
 });
 
 app.get("/health", (req, res) => {
